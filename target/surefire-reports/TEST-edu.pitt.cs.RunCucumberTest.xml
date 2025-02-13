@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.pitt.cs.RunCucumberTest" time="2.345" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\14847\Documents\GitHub\maven-practice\target\test-classes;C:\Users\14847\Documents\GitHub\maven-practice\target\classes;C:\Users\14847\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\14847\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\14847\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\14847\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\14847\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-junit\6.7.0\cucumber-junit-6.7.0.jar;C:\Users\14847\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\14847\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\14847\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\14847\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\14847\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\14847\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\14847\AppData\Local\Temp\surefire5460501720768581067\surefirebooter-20250212193124153_3.jar C:\Users\14847\AppData\Local\Temp\surefire5460501720768581067 2025-02-12T19-31-23_954-jvmRun1 surefire-20250212193124153_1tmp surefire_0-20250212193124153_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\14847\Documents\GitHub\maven-practice\target\test-classes;C:\Users\14847\Documents\GitHub\maven-practice\target\classes;C:\Users\14847\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\14847\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\14847\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\14847\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\14847\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\14847\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\14847\.m2\repository\io\cucumber\cucumber-junit\6.7.0\cucumber-junit-6.7.0.jar;C:\Users\14847\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\14847\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\14847\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\14847\.m2\repository\net\bytebuddy\byte-buddy\1.14.9\byte-buddy-1.14.9.jar;C:\Users\14847\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.9\byte-buddy-agent-1.14.9.jar;C:\Users\14847\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\14847"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\14847\Documents\GitHub\maven-practice"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\14847\AppData\Local\Temp\surefire5460501720768581067\surefirebooter-20250212193124153_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.25+9"/>
+    <property name="user.name" value="14847"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.25+9"/>
+    <property name="localRepository" value="C:\Users\14847\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\14847\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.25"/>
+    <property name="user.dir" value="C:\Users\14847\Documents\GitHub\maven-practice"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-11.0.25.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Livestreamer;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Users\14847\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\14847\AppData\Local\Programs\Python\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\14847\AppData\Local\Microsoft\WindowsApps;C:\Users\14847\AppData\Local\Programs\Microsoft VS Code\bin;C:\Python34\Scripts;C:\Users\14847\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Users\14847\AppData\Local\Microsoft\WindowsApps;C:\Users\14847\AppData\Local\GitHubDesktop\bin;C:\Program Files\qemu;C:\Users\14847\Documents\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.25+9"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="If I shoot a planet with 10 hitpoints, then return value of call is &quot;Wimpy planet was hit by the superlaser!&quot; and hitpoints of planet returns -90" classname="shoot interface" time="0.116">
+    <system-out><![CDATA[
+Scenario: If I shoot a planet with 10 hitpoints, then return value of call is "Wimpy planet was hit by the superlaser!" and hitpoints of planet returns -90 &amp#27;[90m# edu/pitt/cs/deathStar_shoot.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma Death Star&amp#27;[0m                                                                                                                                        &amp#27;[90m# edu.pitt.cs.DeathStarStepDefinitions.aDeathStar()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma Planet with &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m hitpoints&amp#27;[0m                                                                                                                            &amp#27;[90m# edu.pitt.cs.DeathStarStepDefinitions.aPlanet(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI shoot a planet&amp#27;[0m                                                                                                                                     &amp#27;[90m# edu.pitt.cs.DeathStarStepDefinitions.shoot()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mcall return value is: &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wimpy planet was hit by the superlaser!"&amp#27;[0m                                                                                      &amp#27;[90m# edu.pitt.cs.DeathStarStepDefinitions.shootReturn(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mplanet hitpoints is: &amp#27;[0m&amp#27;[32m&amp#27;[1m-90&amp#27;[0m                                                                                                                              &amp#27;[90m# edu.pitt.cs.DeathStarStepDefinitions.planetHitpoints(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="if I call incVal 0 times, then getVal returns 0" classname="incVal interface" time="0.008">
+    <system-out><![CDATA[
+Scenario: if I call incVal 0 times, then getVal returns 0 &amp#27;[90m# edu/pitt/cs/value_incVal.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma Value&amp#27;[0m                                           &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.aValue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe value is: &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                    &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.getValue(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="if I call incVal 1 time, then getVal returns 1" classname="incVal interface" time="0.014">
+    <system-out><![CDATA[
+Scenario: if I call incVal 1 time, then getVal returns 1 &amp#27;[90m# edu/pitt/cs/value_incVal.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma Value&amp#27;[0m                                          &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.aValue()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI call incVal&amp#27;[0m                                     &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.incVal()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe value is: &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                                   &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.getValue(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="if I call incVal 2 times, then getVal returns 2" classname="incVal interface" time="0.004">
+    <system-out><![CDATA[
+Scenario: if I call incVal 2 times, then getVal returns 2 &amp#27;[90m# edu/pitt/cs/value_incVal.feature:19&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma Value&amp#27;[0m                                           &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.aValue()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI call incVal&amp#27;[0m                                      &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.incVal()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI call incVal&amp#27;[0m                                       &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.incVal()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe value is: &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                                    &amp#27;[90m# edu.pitt.cs.ValueStepDefinitions.getValue(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
